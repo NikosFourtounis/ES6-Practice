@@ -1,5 +1,5 @@
-let points = [10, 20, 30]
+let scores = [90, 85, 67, 40]
 
-points = points.map(element => element + 1);
+let passing = scores.filter(element => element >= 70);
 
-console.log(points);
+console.log(passing);

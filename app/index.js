@@ -1,5 +1,3 @@
-let scores = [90, 85, 67, 40]
+import { students,total } from './student'
 
-let passing = scores.filter(element => element >= 70);
-
-console.log(passing);
+console.log(students,total)

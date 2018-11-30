@@ -1,15 +1,5 @@
-function blastoff() {
-    console.log('3...2..1')
-}
+let points = [10, 20, 30]
 
-blastoff()  
+points = points.map(element => element + 1);
 
-setTimeout(()=>{
-    console.log('3...2..1')
-},1000)
-
-const blastoff2 = () => {
-    console.log('3...2..1')
-}
-
-blastoff()
+console.log(points);
